@@ -199,7 +199,7 @@ h4,
 h5,
 h6 {
   position: relative;
-  font-family: var(--title-font);
+  font-family: "Liberation Sans", sans-serif;
   font-weight: 400;
   color: var(--title-color);
   margin: 0px;
@@ -3500,7 +3500,7 @@ div#mCSB_1_container {
   display: block;
   overflow: hidden;
   border-radius: 5px;
-  background: var(--theme-color);
+  background: #d95422;
 }
 
 .news-block-one .inner-box .image-box .image img {
@@ -3511,7 +3511,7 @@ div#mCSB_1_container {
 
 .news-block-one .inner-box:hover .image-box .image img {
   opacity: 1;
-  transform: scale(1.05);
+  transform: scale(0.95);
 }
 
 .news-block-one .inner-box .image-box .image:before {
@@ -11429,11 +11429,13 @@ div#mCSB_1_container {
 .blog-sidebar .category-widget .category-list li a {
   position: relative;
   display: block;
-  font-size: 16px;
+  font-size: 19px;
   line-height: 20px;
   color: #000;
-  font-weight: 600;
-  text-transform: uppercase;
+  font-weight: 500;
+  text-transform:capitalize;
+  background-color: #f1f1f1;
+  padding:10px;
 }
 
 .blog-sidebar .category-widget .category-list li a span {
@@ -11457,15 +11459,16 @@ div#mCSB_1_container {
 
 .blog-sidebar .category-widget .category-list li a:hover {
   padding-left: 20px;
-  color: #1b1e31;
+  color: #fff;
+  background-color: #074167;
 }
 
 .blog-sidebar .category-widget .category-list li a:before {
   position: absolute;
   content: "";
-  background: var(--theme-color);
-  width: 12px;
-  height: 9px;
+  background:#f1f1f1;
+  /* width: 12px;
+  height: 9px; */
   left: 0px;
   top: 8px;
   border-radius: 2px;
@@ -12774,3 +12777,18 @@ label.error {
     display: none;
   }
 }
+.image-box img{
+  /* height: 300px; */
+  width: 100%;
+}
+figure a{
+  color:#fff;
+  font-size: 18px;
+}
+figure a:hover{
+  color:#fff;
+}
+.active{
+  color:#d95422;
+}
+
