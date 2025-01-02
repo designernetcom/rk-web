@@ -12676,3 +12676,8 @@ figure a:hover {
 .home-sec  .inner-box .image-box .image {
   border: none;
 }
+@media only screen and (max-width: 1200px) {
+.auto-container {
+padding: 0px 20px;
+}
+}
