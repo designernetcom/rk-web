@@ -2588,8 +2588,8 @@ div#mCSB_1_container {
   position: absolute;
   content: "\f101";
   font-family: "flaticon";
-  bottom: 0px;
-  right: -40px;
+  /* bottom: 0px; */
+  right: 0px;
   font-size: 20px;
   color: #d95422;
   font-weight: 600;
