@@ -593,7 +593,7 @@ img {
 .sec-title h2 {
   position: relative;
   display: block;
-  font-size: 40px;
+  font-size: 26px;
   line-height: 50px;
   font-weight: 700;
   margin: 0px;
@@ -7564,9 +7564,9 @@ div#mCSB_1_container {
 .platform-style-two .single-item .static-content h4 {
   position: relative;
   display: inline-block;
-  font-size: 20px;
+  font-size: 18px;
   line-height: 30px;
-  font-weight: 600;
+  font-weight: 300;
   padding-left: 45px;
   padding-right: 25px;
 }
